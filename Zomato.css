@@ -2,60 +2,22 @@ body{
     margin: 0;
     padding: 0;
 }
-
 header{
-    cursor:hover;
+   
     position: relative;
     width: auto;
-    height: auto;
+    height: 420px;
     background-image: url("a1.png");
     background-repeat: no-repeat;
-    background-size: cover;
-}
-.h2{
-    color: white;
-    position: absolute;
-    top: auto;
-    left: auto;
-    font-family: sans-serif;
-    font-size: 5em;
-}
-.head{
-    display: flex;
-    gap: 20px;
-    position: absolute;
-    left: auto;
-    color: white;
-    font-family: sans-serif;
-    font-size: large;
-}
-.h3{
-    position: absolute;
-    top: auto;
-    left: auto;
-    color: crimson;
-    font-size: 2em;
-
-}
-nav{
-    border: solid 1px white;
-    border-radius: 10px;
-    display: flex;
-    gap: 20px;
-    position: absolute;
-    bottom: auto;
-    left: auto;
-    background-color: white;
-    width: auto;
 }
 section{
     display: flex;
     gap: 2%;
-    margin: auto;
+    margin: 30px 40px 0px;
 }
 section>div{
-    height: auto;
-    width: auto;
+    height: 200px;
+    width: 80%;
     border: solid 1px;
     border-radius: 10px;
 }
@@ -65,25 +27,22 @@ section>div{
 }
 .p1{transition: transform 0.3s ease, opacity 0.3s ease;
     cursor: pointer;
-    height:auto;
-    width: auto;
-    border-radius: auto;
+    height:200px;
+    width: 100%;
+    border-radius: 10px;
 }
 .p1:hover{
     transform: scale(1.1); 
       opacity: 0.7;
       border: 2px solid blue;
 }
-section>div>h3,p{
-    
-    margin-left: auto;
+section>div>h3{
+     margin-left: 100px;
     box-sizing:border-box;
-
-    
 }
 .f{
-    height: auto;
-    width: auto;
+    height: 100px;
+    width: 100px;
 }
 .b{
     
@@ -98,120 +57,60 @@ transform: scale(1.1);
 }
 .c{transition: transform 0.3s ease, opacity 0.3s ease;
     cursor: pointer;
-    height: auto;
-    width:auto;
+    height: 250px;
+    width:100%;
     padding: 20px;
     border-radius: 20px;
 }
 .c img{
-    height: auto;
-    width: auto;
+    height: 200px;
+    width: 100%;
     border-radius: 15px;
     position: relative;
 }
-.sh{
-    position: absolute;
-    bottom: auto;
-    color: white;
-}
-.sh1{
-    position: absolute;
-    bottom: 1px;
-    color: white;
-}
+
 .section3{
-    margin:auto;
+    margin: 10px 40px 0px;
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 18px;
 }
 
 
-.section4{
-    margin-top: auto;
-    background-color: antiquewhite;
-    display: flex;
-    gap: 50px;
-}
-.section4 img{
-    height: auto;
-    width: auto;
-    margin:  auto;
-}
-.section4 button{
-    height: auto;
-    width: auto;
-    border-radius: auto;
-    cursor: pointer;
-    background-color: crimson;
-    color: white;
-}
-.section5 h3{
-    border: solid 1px;
-    border-radius: auto;
-    height: auto;
-    padding: 15px;
-    margin: auto;
-}
-select{
-    border: none;
-    width: auto;
-    height: auto;
-    border-radius: 10%;
-    display: block;
-    align-items: center;
-    margin: auto;
-}
-option{
-    text-overflow: clip;
-    font-size: large;
-    font-family: sans-serif;
-    font-weight: bold;
-}
+
 footer{
     background-color: beige;
-    margin: auto;
+    margin: 30px 0px 0px;
 }
-.h{
-    display: flex;
-    gap: auto;
-}
-.h img{
-    width: auto;
-    height: auto;
-}
+
 .j{
     display: flex;
     gap: 30px;
-    width: auto;
+    width: 80%;
     justify-content: space-evenly;
 }
-.fi{
-    height: auto;
-    width: auto;
-    margin: auto;
-}
+
 .k img{
-    height: auto;
-    width: auto;
+    height: 40px;
+    width: 120px;
     display: block;
 }
 .p{
-    width: auto;
+    width: 80%;
     height: auto;
     margin: auto;
 }
 
 img[src*="a12.png"] {
-  width: auto;  
+  width: 300px;  
   height: auto;  }
 img[src*="a10.png"] {
-    margin: auto;
-  width: auto;  
+    margin: 10px 10px 100px 10px;
+  width: 300px;  
   height: auto;  }
-  .ij{
-    width: auto;
-    height: auto;
+.ij{
+    width: 100%;
+    height: 300px;
     border-radius: 15px;
     overflow: hidden;
     color:red;
@@ -242,7 +141,7 @@ body {
 }
 .lj{
     background-color: aqua;
-    height:auto;
+    height:200px;
 }
 .locations {
   padding: 40px;
@@ -265,14 +164,14 @@ img[src*="images (1).png"] { width: 200%;
     transition: transform 0.3s ease, opacity 0.3s ease;
     cursor: pointer;
 
-    max-width: auto;   
+    max-width: 400px;   
     padding-left: 40px;
     padding-bottom: 40px;
-    height: auto;  }
+    height: 300px;  }
 .ga {
   display: flex;
   width: auto;
-  height: auto;   }
+  height: 400px;   }
 
 .ga1, .ga2, .ga3 {
   flex: 1;         
@@ -282,50 +181,19 @@ img[src*="a10.png"]
 {transition: transform 0.3s ease, opacity 0.3s ease;
     cursor: pointer;
 
-    height:auto;
-    width:auto;
-}
-.o{
-  width:auto;
-  height: auto;
-  padding:auto;
-  background:red;
-  border-radius:8px;
-  box-shadow:0 0 10px #ccc;
-  font-family:arial;
-}
-
-.o input{
-  width:auto;
-  margin:8px 0;
-  padding:8px;
-}
-
-.o button{
-    transition: transform 0.3s ease, opacity 0.3s ease;
-    cursor: pointer;
-  width:auto;
-  padding-left:28px;
-  background:rgb(242, 255, 0);
-  color:blue;
-  border:0;
-  font-size: larger;
-}
-.o button:hover{
-transform: scale(1.1); 
-      opacity: 2.0;
-      border: 2px solid blue;    
+    height:300px;
+    width:500px;
 }
 .lj{
 
   display: flex;
   width: auto;
-  height: auto;   
+  height: 100px;   
 }
 .j {
   display: flex;
   width: auto;
-  height: auto;   }
+  height: 400px;   }
   .l{  transition: transform 0.3s ease, opacity 0.3s ease;
     cursor: pointer;
 
@@ -335,3 +203,33 @@ transform: scale(1.1);
       opacity: 5.0;
       border: 5px solid red;    
   }
+  .o{
+  width:450px;
+  height: 250px;
+  padding:20px;
+  background:#f90808;
+  border-radius:8px;
+  box-shadow:0 0 10px #ccc;
+  font-family:arial;
+}
+
+  .o input{
+  width:100%;
+  margin:8px 0;
+  padding:8px;
+}
+
+.o button{
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    cursor: pointer;
+  width:400px;
+  padding-left:28px;
+  background:rgb(242, 255, 0);
+  color:blue;
+ font-size: larger;
+}
+.o button:hover{
+transform: scale(1.1); 
+      opacity: 2.0;
+      border: 2px solid blue;    
+}
