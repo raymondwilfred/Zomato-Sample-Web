@@ -7,7 +7,7 @@ header{
     cursor:hover;
     position: relative;
     width: auto;
-    height: 420px;
+    height: auto;
     background-image: url("a1.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -15,8 +15,8 @@ header{
 .h2{
     color: white;
     position: absolute;
-    top: 80px;
-    left: 40%;
+    top: auto;
+    left: auto;
     font-family: sans-serif;
     font-size: 5em;
 }
@@ -24,15 +24,15 @@ header{
     display: flex;
     gap: 20px;
     position: absolute;
-    left: 60%;
+    left: auto;
     color: white;
     font-family: sans-serif;
     font-size: large;
 }
 .h3{
     position: absolute;
-    top: 200px;
-    left: 30%;
+    top: auto;
+    left: auto;
     color: crimson;
     font-size: 2em;
 
@@ -43,19 +43,19 @@ nav{
     display: flex;
     gap: 20px;
     position: absolute;
-    bottom: 50px;
-    left: 30%;
+    bottom: auto;
+    left: auto;
     background-color: white;
-    width: 650px;
+    width: auto;
 }
 section{
     display: flex;
     gap: 2%;
-    margin: 30px 40px 0px;
+    margin: auto;
 }
 section>div{
-    height: 200px;
-    width: 80%;
+    height: auto;
+    width: auto;
     border: solid 1px;
     border-radius: 10px;
 }
@@ -65,9 +65,9 @@ section>div{
 }
 .p1{transition: transform 0.3s ease, opacity 0.3s ease;
     cursor: pointer;
-    height:200px;
-    width: 100%;
-    border-radius: 10px;
+    height:auto;
+    width: auto;
+    border-radius: auto;
 }
 .p1:hover{
     transform: scale(1.1); 
@@ -76,14 +76,14 @@ section>div{
 }
 section>div>h3,p{
     
-    margin-left: 100px;
+    margin-left: auto;
     box-sizing:border-box;
 
     
 }
 .f{
-    height: 100px;
-    width: 100px;
+    height: auto;
+    width: auto;
 }
 .b{
     
@@ -98,20 +98,20 @@ transform: scale(1.1);
 }
 .c{transition: transform 0.3s ease, opacity 0.3s ease;
     cursor: pointer;
-    height: 250px;
-    width:100%;
+    height: auto;
+    width:auto;
     padding: 20px;
     border-radius: 20px;
 }
 .c img{
-    height: 200px;
-    width: 100%;
+    height: auto;
+    width: auto;
     border-radius: 15px;
     position: relative;
 }
 .sh{
     position: absolute;
-    bottom: 20px;
+    bottom: auto;
     color: white;
 }
 .sh1{
@@ -120,7 +120,7 @@ transform: scale(1.1);
     color: white;
 }
 .section3{
-    margin: 10px 40px 0px;
+    margin:auto;
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 18px;
@@ -128,35 +128,35 @@ transform: scale(1.1);
 
 
 .section4{
-    margin-top: 50px;
+    margin-top: auto;
     background-color: antiquewhite;
     display: flex;
     gap: 50px;
 }
 .section4 img{
-    height: 300px;
-    width: 250px;
-    margin: 50px 150px;
+    height: auto;
+    width: auto;
+    margin:  auto;
 }
 .section4 button{
-    height: 50px;
-    width: 50%;
-    border-radius: 3%;
+    height: auto;
+    width: auto;
+    border-radius: auto;
     cursor: pointer;
     background-color: crimson;
     color: white;
 }
 .section5 h3{
     border: solid 1px;
-    border-radius: 10px;
+    border-radius: auto;
     height: auto;
     padding: 15px;
-    margin: 10px 40px 0px;
+    margin: auto;
 }
 select{
     border: none;
-    width: 80%;
-    height: 50px;
+    width: auto;
+    height: auto;
     border-radius: 10%;
     display: block;
     align-items: center;
@@ -170,48 +170,48 @@ option{
 }
 footer{
     background-color: beige;
-    margin: 30px 0px 0px;
+    margin: auto;
 }
 .h{
     display: flex;
-    gap: 600px;
+    gap: auto;
 }
 .h img{
-    width: 150px;
+    width: auto;
     height: auto;
 }
 .j{
     display: flex;
     gap: 30px;
-    width: 80%;
+    width: auto;
     justify-content: space-evenly;
 }
 .fi{
-    height: 40px;
-    width: 100px;
-    margin: 20px 80px 0px;
+    height: auto;
+    width: auto;
+    margin: auto;
 }
 .k img{
-    height: 40px;
-    width: 120px;
+    height: auto;
+    width: auto;
     display: block;
 }
 .p{
-    width: 80%;
+    width: auto;
     height: auto;
     margin: auto;
 }
 
 img[src*="a12.png"] {
-  width: 300px;  
+  width: auto;  
   height: auto;  }
 img[src*="a10.png"] {
-    margin: 10px 10px 100px 10px;
-  width: 300px;  
+    margin: auto;
+  width: auto;  
   height: auto;  }
   .ij{
-    width: 100%;
-    height: 300px;
+    width: auto;
+    height: auto;
     border-radius: 15px;
     overflow: hidden;
     color:red;
@@ -242,7 +242,7 @@ body {
 }
 .lj{
     background-color: aqua;
-    height:200px;
+    height:auto;
 }
 .locations {
   padding: 40px;
@@ -265,14 +265,14 @@ img[src*="images (1).png"] { width: 200%;
     transition: transform 0.3s ease, opacity 0.3s ease;
     cursor: pointer;
 
-    max-width: 400px;   
+    max-width: auto;   
     padding-left: 40px;
     padding-bottom: 40px;
-    height: 300px;  }
+    height: auto;  }
 .ga {
   display: flex;
   width: auto;
-  height: 400px;   }
+  height: auto;   }
 
 .ga1, .ga2, .ga3 {
   flex: 1;         
@@ -282,21 +282,21 @@ img[src*="a10.png"]
 {transition: transform 0.3s ease, opacity 0.3s ease;
     cursor: pointer;
 
-    height:300px;
-    width:500px;
+    height:auto;
+    width:auto;
 }
 .o{
-  width:450px;
-  height: 250px;
-  padding:20px;
-  background:#f90808;
+  width:auto;
+  height: auto;
+  padding:auto;
+  background:red;
   border-radius:8px;
   box-shadow:0 0 10px #ccc;
   font-family:arial;
 }
 
 .o input{
-  width:100%;
+  width:auto;
   margin:8px 0;
   padding:8px;
 }
@@ -304,7 +304,7 @@ img[src*="a10.png"]
 .o button{
     transition: transform 0.3s ease, opacity 0.3s ease;
     cursor: pointer;
-  width:400px;
+  width:auto;
   padding-left:28px;
   background:rgb(242, 255, 0);
   color:blue;
@@ -320,12 +320,12 @@ transform: scale(1.1);
 
   display: flex;
   width: auto;
-  height: 100px;   
+  height: auto;   
 }
 .j {
   display: flex;
   width: auto;
-  height: 400px;   }
+  height: auto;   }
   .l{  transition: transform 0.3s ease, opacity 0.3s ease;
     cursor: pointer;
 
