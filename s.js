@@ -27,7 +27,6 @@ document.addEventListener("DOMContentLoaded", function () {
         document.getElementById("form-status").textContent =
             `Thank you, ${name}! Registration successful.`;
 
-        // Reset form
         form.reset();
     });
 
